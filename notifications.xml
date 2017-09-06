@@ -1,0 +1,5 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="RVM Support" shouldLog="false" />
+  </component>
+</application>

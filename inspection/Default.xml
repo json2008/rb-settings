@@ -1,0 +1,49 @@
+<profile version="1.0">
+  <option name="myName" value="Default" />
+  <inspection_tool class="CheckDtdRefs" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="CheckTagEmptyBody" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="CheckXmlFileWithXercesValidator" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="CucumberMissedExamples" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="CucumberUndefinedStep" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="Rails3Deprecated" enabled="false" level="WARNING" enabled_by_default="false">
+    <option name="showForOldProjects" value="false" />
+  </inspection_tool>
+  <inspection_tool class="RailsChecklist01" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="RailsChecklist02" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="RailsChecklist04" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="RailsChecklist05" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="RailsI18nInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="RailsParamDefResolve" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="RbenvGemsetsConfig" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="Rubocop" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="RubyClassMethodNamingConvention" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="RubyClassModuleNamingConvention" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="RubyClassVariableNamingConvention" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="RubyConstantNamingConvention" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="RubyGlobalVariableNamingConvention" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="RubyInstanceMethodNamingConvention" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="RubyInstanceVariableNamingConvention" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="RubyLiteralArrayInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="RubyLocalVariableNamingConvention" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="RubyParameterNamingConvention" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="RubyQuotedStringsInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="RubyResolve" enabled="false" level="WARNING" enabled_by_default="false">
+    <option name="warnImplicitResults" value="false" />
+  </inspection_tool>
+  <inspection_tool class="RubyShouldaUnsupportedTestFile" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="RubyStringKeysInHashInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="RubyTooManyMethodsInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+    <option name="processCode" value="true" />
+    <option name="processLiterals" value="true" />
+    <option name="processComments" value="true" />
+  </inspection_tool>
+  <inspection_tool class="XmlDefaultAttributeValue" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="XmlDuplicatedId" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="XmlHighlighting" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="XmlInvalidId" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="XmlPathReference" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="XmlUnboundNsPrefix" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="XmlUnusedNamespaceDeclaration" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="XmlWrongRootElement" enabled="false" level="ERROR" enabled_by_default="false" />
+</profile>

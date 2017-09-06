@@ -1,0 +1,39 @@
+<application>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="" />
+    <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
+    <option name="SHOW_INTENTION_BULB" value="false" />
+    <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
+    <option name="SHOW_BREADCRUMBS" value="false" />
+    <option name="IS_DND_ENABLED" value="false" />
+    <option name="SHOW_PARAMETER_NAME_HINTS" value="false" />
+  </component>
+  <component name="RubyEditorOptions">
+    <option name="startInterpolationOnHash" value="true" />
+  </component>
+  <component name="SqlEditorOptions">
+    <option name="concatenateStringsOnEnter" value="true" />
+    <option name="qualificationType" value="On collisions" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern icon="question" pattern="\breview\b.*" />
+    <pattern icon="important" pattern="\bfixme\b.*" />
+    <pattern pattern="\bsmell\b.*" />
+    <pattern pattern="\bhack\b.*" />
+    <pattern pattern="\bwarn\b.*" />
+    <pattern pattern="\boptimise\b.*" />
+  </component>
+  <component name="XmlEditorOptions">
+    <option name="autoCloseTag" value="false" />
+    <option name="automaticallyInsertClosingTag" value="false" />
+    <option name="automaticallyInsertRequiredAttributes" value="false" />
+    <option name="automaticallyInsertRequiredSubTags" value="false" />
+    <option name="automaticallyStartAttribute" value="false" />
+    <option name="insertQuotesForAttributeValue" value="false" />
+    <option name="selectWholeCssIdentifierOnDoubleClick" value="false" />
+    <option name="showCssColorPreviewInGutter" value="false" />
+    <option name="syncTagEditing" value="false" />
+    <option name="tagTreeHighlightingEnabled" value="false" />
+  </component>
+</application>

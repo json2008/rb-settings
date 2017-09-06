@@ -1,0 +1,61 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="CommitMessageInspectionProfile">
+        <profile version="1.0">
+          <inspection_tool class="CommitMessageSpellChecking" enabled="false" level="TYPO" enabled_by_default="false" />
+        </profile>
+      </component>
+      <component name="ProjectDictionaryState">
+        <dictionary name="jason" />
+      </component>
+      <component name="ProjectInspectionProfilesVisibleTreeState">
+        <entry key="Project Default">
+          <profile-state>
+            <expanded-state>
+              <State>
+                <id />
+              </State>
+              <State>
+                <id>Ruby</id>
+              </State>
+            </expanded-state>
+            <selected-state>
+              <State>
+                <id>Ruby</id>
+              </State>
+            </selected-state>
+          </profile-state>
+        </entry>
+      </component>
+      <component name="ProjectLevelVcsManager">
+        <ConfirmationsSetting value="2" id="Add" />
+        <ConfirmationsSetting value="2" id="Remove" />
+      </component>
+      <component name="PropertiesComponent">
+        <property name="settings.editor.selected.configurable" value="vcs.Git" />
+      </component>
+      <component name="PublishConfigData" autoUpload="On explicit save action" promptOnRemoteOverwrite="CHECK_TIMESTAMP" deleteMissingItems="true" createEmptyFolders="true" exclude=".svn;.cvs;.idea;.DS_Store;.git;.hg;log;*.lock;" notifyRemoteChanges="true">
+        <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
+      </component>
+      <component name="VcsContentAnnotationSettings">
+        <option name="myLimit" value="2678400000" />
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="ScopeChooserConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.31885245" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
+      </component>
+    </defaultProject>
+  </component>
+</application>

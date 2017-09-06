@@ -1,0 +1,48 @@
+<templateSet group="Ruby">
+  <template name="mclass" value="# frozen_string_literal: true&#10;# Author: Jason.liu, Contact: jminfo@126.com&#10;&#10;module Ns&#10;  class $CLASS_NAME$&#10;    include Mongoid::MyDbTools&#10;    # as_json_filter without:, with:&#10;    field :_id, type: Integer, default: -&gt;{ AutoIncId.get_next(self.class.name) }&#10;    &#10;    $END$&#10;    &#10;  end&#10;end" description="model class" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="rclass" value="# frozen_string_literal: true&#10;# Author: Jason.liu, Contact: jminfo@126.com&#10;&#10;module Ns&#10;  class Url_$CLASS_NAME$ &lt; AppBase&#10;  &#10;    $END$&#10;    &#10;  end&#10;end" description="router class" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="blst" value="belongs_to :$OBJ$, index: true$END$" description="belongs_to" toReformat="false" toShortenFQNames="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="fds" value="field :$STRING$, type: String$END$" description="field string" toReformat="false" toShortenFQNames="true">
+    <variable name="STRING" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="fdi" value="field :$STRING$, type: Integer$END$" description="field integer" toReformat="false" toShortenFQNames="true">
+    <variable name="STRING" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="fdb" value="field :$STRING$, type: Boolean$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="STRING" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="yload" value="YAML.load_file($PATH_TO_FILE$)" description="YAML load" toReformat="true" toShortenFQNames="true">
+    <variable name="PATH_TO_FILE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="COMPLETION" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+</templateSet>
